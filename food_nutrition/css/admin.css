@@ -1,0 +1,206 @@
+﻿
+/* ------AdminMasterPage.master------ */
+/* ------左侧栏------ */
+#leftpage {
+    float:left;
+    width:200px;
+    height:auto;
+    padding:0px;
+}
+.curShow{
+    width:200px;
+    height:60px;
+    background:url(../images/column_tit_bg.png);
+    margin:auto;
+    text-align:center;
+    font-family:"黑体";
+    font-weight:bold;
+    font-size:28px;
+    line-height:60px;
+    color:darkgreen;
+}
+/* ------树状导航------ */
+.menu {
+    width:200px;
+    height:211px;
+    margin:0px;
+    padding:0px;
+}
+.menu a:link, .menu a:visited {
+    float:left;
+    width:200px;
+    height:34px;
+    background:url(../images/column_tit_bg2.png);
+    border-top:2px solid white; 
+    color:darkgreen;
+    font-family:"黑体";
+    font-size:16px;
+    line-height:34px;
+    text-align:center;
+    text-decoration:none;
+}
+.menu a:hover{
+    float:left;
+    width:200px;
+    height:34px;
+    background:url(../images/column_tit_bg3.JPG);
+    border-bottom:2px solid white; 
+    color:darkgreen;
+    font-family:"黑体";
+    font-size:16px;
+    line-height:34px;
+    text-align:center;
+    text-decoration:none;
+}
+/* ------END树状导航------ */
+.search{
+    width:200px;
+    height:90px;
+    border-top:4px solid white; 
+}
+.newsSearch{
+    width:200px;
+    background:url(../images/column_tit_bg2.png);  
+    border-top:4px solid white; 
+    font-family:"黑体";
+    font-weight:bold;
+    font-size:16px;
+    color:darkgreen;
+    line-height:34px;  
+    text-align:center;
+}
+.searchText{ 
+    width:140px; 
+    height:22px; 
+    border:#DBDBDB solid 1px; 
+    margin:1px auto;
+}
+.searchBtn{
+    width:40px; 
+    height:22px; 
+    border:none;
+    font-size:12px; 
+    float:right;
+    margin:1px 5px;
+}
+/* ------END左侧栏------ */
+/* ------右侧栏------ */
+#rightpage {
+    float:left;  
+    width:780px;
+    height:auto;
+    margin:0px;
+    padding:0px;
+}
+/* ------END右侧栏------ */
+/* ------ENDAdminMasterPage.master------ */
+/* ------AdminDefault------ */
+#manager_banner{
+	margin:auto; 
+	width:1000px;
+	height:200px;
+	overflow:hidden;
+	text-overflow:clip;    
+}
+.title {
+    width:auto;
+    height:auto;
+    padding-left:15px;
+}
+.title span{
+    font-family:"黑体";
+    color:darkgreen;
+    font-size:14px;
+    font-weight:bold;
+    line-height:22px;
+    border-left:5px double green;
+    padding:0px 10px;
+    
+}
+.title_list{
+    width:700px;
+    height:auto;
+    margin:auto;
+}
+.title_list a:link,.title_list a:visited{
+    font-family:"黑体";
+    color:dimgrey;
+    font-size:14px;
+    line-height:22px;   
+    padding-left:15px;
+}
+.title_list a:hover{
+    font-family:"黑体";
+    color:darkseagreen;
+    font-size:14px;
+    line-height:22px;   
+    padding-left:15px;
+}
+/* ------ENDAdminDefault------ */
+.list_btn {
+    width:60px;
+    height:26px;
+    text-align:center;
+    background-color:darkseagreen;
+}
+
+/* ------insertfiles------ */
+.current_position {
+    text-align:right;
+}
+.insert{ width:590px;  overflow:hidden;  clear:both; margin:5px; color:#0F4B6F; font-weight:bold;}
+.insert span{ color:#0F4B6F; height:23px;line-height:23px;width:70px;float:left;text-align:right;}
+.insertText{  width:500px; height:23px; border:#DBDBDB solid 1px; float:left; margin-left:3px;}
+.insertBtn{float:right; margin:5px 120px 2px 0px; background:url(../images/adm_button.png); width:45px; height:22px; border:none; color:#fff; font-size:14px; }
+.insertdrop{  width:180px; height:23px;  float:left; margin-left:3px; border:#DBDBDB solid 1px;}
+.insertcontent{width:630px; height:auto;margin-left:30px;}
+
+/* ------ENDinsertfiles------ */
+/*----updatefiles-------------*/
+.update_list {
+    width:700px;
+    height:auto;
+    margin:auto;
+}
+.update_list a:link,.update_list a:visited {
+    font-family:"黑体";
+    color:dimgray;
+    font-size:16px;
+    line-height:26px;   
+    padding-left:15px;
+}
+.update_list a:hover{
+    color:darkseagreen;
+}
+.update{ 
+    width:570px;
+    overflow:hidden;  
+    clear:both; 
+    margin:5px; color:#0F4B6F; 
+    font-weight:bold;
+}
+.update span{ 
+    color:#0F4B6F;
+    height:23px;
+    line-height:23px;
+    width:70px;
+    float:left;
+    text-align:right;
+}
+.updateText{ 
+    width:480px; 
+    height:23px; 
+    border:#DBDBDB solid 1px; 
+    float:left; 
+    margin-left:3px;
+}
+.updateBtn{
+    width:auto; 
+    height:26px;
+    line-height:26px;
+    background-color:limegreen; 
+    border:none; 
+    color:#fff; 
+    font-size:14px;
+}
+/*----ENDupdatefiles-------------*/

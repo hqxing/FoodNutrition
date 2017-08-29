@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="../css/admin.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/layout.css" rel="stylesheet" type="text/css"/> 
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">      
+            <div id="container" >
+                <div id="header">
+                    <div id="top">               
+                        <img alt ="" src="../images/logo.png" id="logo" />
+                        <img alt="" src="../images/top_bg.jpg" id="top_bg" />
+                        <div class="loginbtn">
+                            <asp:Label ID="lblloginmessage" runat="server" ></asp:Label>
+                            <asp:LinkButton ID="lbtnlogin" runat="server" onclick="lbtnlogin_Click">登录</asp:LinkButton>                            
+                            <asp:LinkButton ID="lbtnexit" runat="server" onclick="lbtnexit_Click">退出</asp:LinkButton>
+                        </div>                                                                                                               
+                    </div>                               
+                    <div id="nav">                
+                       <ul>
+                            <li><a href="../index.aspx" title="首页">首页</a></li>
+                            <li><a href="../news.aspx" title="新闻资讯">新闻资讯</a></li>
+                            <li><a href="../food_nutriton.aspx" title="食物营养">食物营养</a></li>                                         
+                            <li><a href="../contact_us.aspx" title="学科动态">联系我们</a></li>                                           	                                                 
+                       </ul>
+                    </div>
+                    <div id="banner">
+		                <div id="manager_banner"> 
+    		            <a id="url" href="#"> <img src="../images/manager_banner.jpg" alt="" id="pic" style="border:0px;"/></a>
+                        </div>
+                    </div>           
+                </div>
+                <div id="content">
+                    <div id="leftpage">
+    	                <p class="curShow"><a>管理操作</a></p>
+                        <div class="menu">
+                            <a href="AdminDefault.aspx" target="_blank">管理员首页</a>
+          	                <a href="insertfiles.aspx" target="_blank">插入资讯</a>
+          	                <a href="updatefiles.aspx" target="_blank">修改更新资讯</a>
+                            <a href="deletefiles.aspx" target="_blank">删除文件</a>
+          	                <a href="#">用户管理</a>
+          	                <a href="#">修改密码</a>            
+                        </div>
+                        <div class="search">
+          	                <div class="newsSearch">新闻搜索</div>
+          	 	            <p><asp:TextBox ID="txtsearch" runat="server"  class="searchText" />
+                            <asp:Button  ID="btnsearch" runat="server"  class="searchBtn" Text="搜索"/></p>
+                        </div>
+    	            </div>
+                    <div id="rightpage">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">  </asp:ContentPlaceHolder>
+                    </div>                        
+                </div>
+                <div id="footer">
+                    <p>版权所有：15软件外包服务</p>
+                    <p>何青杏</p>
+                    <p>1538113</p>            
+                </div>
+            </div>        
+    </form>
+</body>
+</html>

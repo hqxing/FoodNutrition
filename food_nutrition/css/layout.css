@@ -1,0 +1,534 @@
+﻿/* -------- Public Class ------------ */
+
+a{outline:none; text-decoration:none;} a:hover{ text-decoration:none;}
+body {
+    background:url(../images/bg.JPG) repeat;
+    font-family: "Microsoft Yahei", "微软雅黑","宋体",arial; font-size: 12px;
+}
+/* ------容器盒子------ */
+#container{ 
+    width:1000px ;
+    height:auto ;
+    background-color:white; 
+    margin:0 auto; 
+    padding:0 ;
+}
+#header {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    padding:0;
+}
+#content{
+    width:980px;
+    padding:10px;
+    height:auto;
+    background:url(../images/container.JPG) repeat-y;
+}
+#footer{
+    clear:both;
+    width:1000px;
+    height:80px;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    border-top:7px solid darkgrey;
+}
+#footer p{
+    color:darkgray;
+    font-family:"Arial",'Microsoft YaHei';
+    font-size:12px;
+
+}
+/* ------END容器盒子------ */
+/* ------头部图标------ */
+#top {
+    width:980px;
+    height:72px;
+    margin:0px;
+    padding:10px;
+}
+#logo{
+    float:left;  
+    width:300px;
+    height:72px;
+    position:relative;
+    left:25px;
+    right:25px;
+}
+#top_bg {
+    float:left;  
+    width:350px;
+    height:72px;
+    position:relative;
+    left:100px;
+    right:25px;
+
+}
+/* ------END头部图标------ */
+/*------登录注册退出按钮------*/
+.loginbtn{
+     width:220px;
+     position:relative;
+     left:100px;
+     top:55px;
+     font-family:"黑体";
+     font-size:13px;
+     float:left;
+     text-align:right;
+ }
+.loginbtn a,.loginbtn a:visited{
+    text-decoration:none;
+    color:#000000;
+}
+/*------END登录注册退出按钮------*/
+/*------主导航------*/
+#nav {    
+    height:35px;
+    width:1000px;
+    padding:0px;
+    margin:0px;
+    background:url(../images/nav1.JPG) repeat;
+}
+#nav ul{ 
+    text-align:center;   
+    width:800px;
+    height:35px;
+    padding:0px;
+    margin:0px 100px;  
+}
+#nav ul li{
+    float:left;
+    width: 200px;
+    height:35px;
+    padding:0px;
+    text-align:center;
+	list-style-type: none;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+#nav ul li a:link,#nav ul li a:visited {
+    width: 200px;
+    height:35px;
+    background:url(../images/nav1.JPG);
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    line-height: 36px;    
+}
+#nav ul li a:hover{
+    text-decoration:none;
+    color:gold;   
+    width: 200px;
+    height:35px;
+    background:url(../images/nav2.JPG);
+    line-height: 36px;
+    padding:5px; 
+}
+/*------END主导航------*/
+/* ------首页图片轮播------ */
+#banner {
+    width:1000px;
+    height:auto;
+    margin:0px;
+    padding:0px;
+}
+.inturn{
+	margin:auto; 
+	width:1000px;
+	height:417px;
+	overflow:hidden;
+	text-overflow:clip;
+}
+
+.textalt{
+	background:#CCC;
+	width:1000px;
+	text-align:right;
+	top:-30px;
+	position:relative;
+	margin:0px;
+	height:30px;
+	padding:0px;
+	border:0px;
+}
+
+.axx{
+	padding:1px 10px;
+	border-left:#cccccc 1px solid;
+}
+a.axx:link,a.axx:visited{
+	text-decoration:none;
+	color:#fff;
+	line-height:12px;
+	font:9px sans-serif;
+	background-color:#666;
+}
+a.axx:active,a.axx:hover{
+	text-decoration:none;
+	color:#fff;
+	line-height:12px;
+	font:9px sans-serif;
+	background-color:#999;
+}
+.bxx{
+	padding:1px 10px;
+	border-left:#cccccc 1px solid;
+}
+a.bxx:link,a.bxx:visited{
+	text-decoration:none;
+	color:#fff;
+	line-height:12px;
+	font:9px sans-serif;
+	background-color:#D34600;
+}
+a.bxx:active,a.bxx:hover{
+	text-decoration:none;
+	color:#fff;
+	line-height:12px;
+	font:9px sans-serif;
+	background-color:#D34600;
+}
+/* ------END首页图片轮播------ */
+
+/*------news------*/
+.news_list{
+    width:700px;
+    height:auto;
+    margin:auto;
+}
+.news_list a:link,.news_list a:visited{
+    font-family:"黑体";
+    color:dimgrey;
+    font-size:14px;
+    line-height:22px;   
+    padding-left:15px;
+}
+.news_list a:hover{
+    font-family:"黑体";
+    color:darkseagreen;
+    font-size:14px;
+    line-height:22px;   
+    padding-left:15px;
+}
+/*------ENDnews------*/
+/*------END数据库------*/
+/* ------首页内容区------ */
+.shang,.xia{
+    width:980px;
+    height:auto;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+.one,.two{
+    float:left;
+    width:480px;
+    margin-left:5px;
+    margin-right:5px;
+    height:auto;
+    background: url('../images/one_bg.png') repeat;
+}
+.three{
+    float:left;
+    width:980px;   
+
+}
+/* ------主页内容区小标题------ */
+.title_one,.title_two,.title_three
+{    
+    height: 35px;
+    padding-bottom:10px;
+    text-align: left;
+    font-family:"黑体","宋体", "微软雅黑";
+    font-size: 18px;
+    line-height: 35px;
+    color:darkgreen;  
+}
+.title_pic{
+    height:33px;
+    width:33px;
+    float:left;
+    padding:0px 10px 0px 0px;
+    margin:auto;
+}
+/* ------END主页内容区小标题------ */
+/* ------膳食指南------ */
+.content_one {
+    width:480px;
+    height:auto;
+}
+.content_one a:link,.content_one a:visited{
+    width:460px;
+    margin:auto;
+    text-decoration:none;
+    font-family:"黑体";
+    font-size:14px;
+    line-height:16px;
+    color:dimgray;
+}
+.content_one a:hover{
+    width:460px;
+    margin:auto;
+    text-decoration:none;
+    font-family:"黑体";
+    font-size:14px;
+    line-height:16px;
+    color:darkolivegreen;
+}
+
+/* ------END膳食指南------ */
+/* ------今日搭配------ */
+.content_two{
+    width:480px;
+    height:auto;
+}
+.today_food{
+    width:93px;
+    height:93px;
+    margin:2px;
+    float:left;
+}
+.today_foodname{
+    padding:5px;
+    color:darkslategrey;
+    font-weight:bold;
+    font-family:"黑体";
+    font-size:14px;
+    line-height:16px;
+}
+.today_cook{
+    width:360px;
+    height:auto;
+    float:left;
+    margin-left:10px;
+    color:darkslategrey;
+    font-family:"黑体";
+    font-size:14px;
+    line-height:16px;
+}
+/* ------END今日搭配------ */
+
+/* ------友情链接------ */
+.link_content{
+    width:980px;
+    height:auto;
+    padding:0px;
+}
+.link_pic {
+    width:136px;
+    height:60px;
+    float:left;
+    margin:0px;
+    padding:0px;
+
+}
+/* ------END友情链接------ */
+/* ------END首页内容区------ */
+/*------today_food.aspx------*/
+.dapei
+{
+    width:700px;
+    height:auto;
+    margin:auto;
+}
+.dapei p
+{
+    width:auto;
+    height:16px;
+    font-size:14px;
+    font-family:"黑体";
+    line-height:16px;
+}
+/*------ENDtoday_food.aspx------*/
+/* ------readfile------ */
+.read_title {
+    width:auto;
+    height:auto;
+    padding-left:15px;
+}
+.read_title span{
+    font-family:"黑体";
+    color:darkgreen;
+    font-size:14px;
+    font-weight:bold;
+    line-height:22px;
+    border-left:5px double green;
+    padding:0px 10px;
+    
+}
+.article_titlename{
+    width:780px;
+    margin-left:100px;
+    margin-right:100px;
+    text-align:center;
+}
+#lblfilename
+{
+    font-family:"黑体";
+    font-size:18px;
+    line-height:22px;
+    color:Green;
+}
+.article_Date
+{
+    width:780px;
+    margin-left:100px;
+    margin-right:100px;
+    text-align:center;
+    font-family:"黑体";
+    font-size:14px;
+    line-height:16px;
+    color:Gray;
+}
+.article_Content
+{
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+.filecontent
+{
+    padding:15px;
+    font-family:"宋体";
+    font-size:16px;
+    line-height:22px;
+    color:Black;
+}
+.filecontent p span{
+    font-family:"宋体";
+    font-size:16px;
+    line-height:22px;
+    color:gray;
+}
+.pic_center
+{
+  width:auto;
+  text-align:center;
+}
+.pic_source{
+    width:auto;
+    text-align:center;
+}
+/* ------ENDreadfile------ */
+/* ------food_nutriton------ */
+#content1{
+    width:auto;
+    height:auto;
+     background-color:darkseagreen;
+}
+.food_left
+{
+    float:left;
+    width:200px;
+    height:auto;
+    padding:100px 0px 100px 0px;
+    margin:0px 0px 10px 0px;
+    background-color:darkseagreen;
+}
+.food_right
+{
+    float:left;  
+    width:780px;
+    height:auto;
+    margin:0px;
+    padding:0px;  
+ 
+}
+/* ------food_nutriton树状导航------ */
+.food_content
+{
+    padding: 0px;
+    width: 980px;
+    height: auto;
+    margin: 0px;
+    background-color:darkseagreen;
+}
+.food_one
+{
+    width: 360px;
+    height: auto;
+    margin: 3px 65px;
+    padding: 0px;
+    float: left;
+}
+.food_type
+{
+    width: 360px;
+    height: 20px;
+    text-align: center;       
+}
+.food_type a:link,.food_type a:visited{
+    line-height: 20px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #008000;
+    font-weight:bold;
+}
+.food_type a:hover{
+    line-height: 20px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:darkgrey;
+}
+.food_one img
+{
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    padding:inherit;
+}
+.menu
+{
+    width: 180px;
+    height:auto;
+    margin: 5px 0px 5px 0px;
+    padding:0px;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.menu a
+{
+    width: 180px;
+    height: 34px;
+    float: left;
+    display: inline;
+    color: #FFFFFF;
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 黑体, 宋体, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    font-size: 34px;
+    line-height:34px;
+    margin: 1px 0px 1px 0px;
+    background: url('../images/menu2.jpg') no-repeat;
+    color: #FFFFFD;
+    text-decoration: none;
+}
+/* ------food_nutriton树状导航------ */
+
+/* ------ENDfood_nutriton------ */
+/* ------contact_us------ */
+.contact_content {
+    width:800px;
+    height:150px;
+    margin:auto;
+    padding:10px;
+    border:2px solid green;
+}
+.contact_content p {
+    margin:auto;
+    text-align:center;
+    font-family:"黑体";
+    font-size:20px;
+    font-weight:bold;
+    color:green;
+    line-height:24px;
+}
+/* ------ENDcontact_us------ */

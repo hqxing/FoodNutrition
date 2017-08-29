@@ -1,0 +1,100 @@
+﻿body {
+}
+
+.tab_box
+{
+    width:770px;
+    height:auto;
+    margin:5px;
+}
+.tab_menu
+{
+    width: 600px;
+    height: 38px;
+ }
+.tab_menu ul
+{
+    height:38px;
+    margin:0px;
+    padding:0px;
+ }
+.tab_menu ul li
+{ 
+    font-size:16px; 
+    margin-right:2px;
+    background-color:darkseagreen;
+    float: left;
+    width: 100px;
+    height: 38px;
+    display: block;
+    list-style-type: none;
+    line-height: 38px;
+    text-align: center;
+}
+.tab_menu ul li a:link,.tab_menu ul li a:visited
+{    
+    color: #000000;
+    text-decoration: none;
+    font-family: 黑体;
+    font-size:16px;  
+    line-height: 38px;  
+}
+ .tab_menu ul li a:hover
+{ 
+    font-size:16px;   
+    border-style:solid;
+    border-width:0px 0px 2px 0px;
+    border-color:darkseagreen;
+    background-color:green;
+    width: 100px;
+    height: 38px;
+    text-decoration: none;
+    display: block;
+}
+
+/*------------------view视图链接样式-------------------*/
+.foodlist{
+    padding-top:10px;
+    width:770px;
+    height:auto;
+    border-style:solid;
+    border-width:2px;
+    border-color:darkseagreen;
+}
+
+.food_pic{
+    width:100px;
+    height:auto;
+    float:left;
+    padding:3px;
+}
+.yiyangjiazhi{
+    width:600px;
+    height:auto;
+    margin:auto;
+}
+.yiyangjiazhi span{
+    font-family:"黑体";
+    font-size:14px;
+    line-height:22px;
+    padding-left:10px;
+    color:forestgreen;
+}
+.yiyangjiazhi li{
+    list-style:none;
+    font-family:"黑体";
+    font-size:14px;
+    line-height:22px;
+}
+.food_tips{
+    width:500px;
+    height:auto;
+    margin:auto;
+}
+.food_tips span{
+    font-family:"黑体";
+    font-size:14px;
+    line-height:22px;
+    color:forestgreen;
+
+}
